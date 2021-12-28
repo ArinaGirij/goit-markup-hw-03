@@ -57,7 +57,10 @@ text-decoration: none;
 .site-nav-link:focus{
   color: #2196f3;
 }
-
+.auth-nav{
+  margin: 0px;
+  padding: 0px;
+}
 .auth-nav-link  {
   color: var(--primary-text-color);
   text-decoration: none;
@@ -71,7 +74,7 @@ text-decoration: none;
   color: #2196f3;
 }
 
-.hero {
+.hero-title{
 background-color: var(--secondary-bgc);
 color: var(--body-bgc);
 font-weight: 900;
