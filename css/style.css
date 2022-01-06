@@ -177,7 +177,7 @@ letter-spacing: 0.03em;
   display: flex;
 }
 
-.work-title.item{
+.work-title .item{
   margin-right: 30px;
 }
 
@@ -201,6 +201,10 @@ letter-spacing: 0.03em;
 
 .team{
   background-color: var(--body-bgc-index);
+}
+
+.team-list{
+  display: flex;
 }
 
 .team-title{
