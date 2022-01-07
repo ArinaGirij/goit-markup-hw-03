@@ -107,7 +107,6 @@ background-color: var(--secondary-bgc);
 color: var(--body-bgc);
 font-size: 44px;
 line-height: 1.5;
-text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 }
@@ -141,12 +140,16 @@ color:var(--body-bgc);
 font-size: 36px;
 }
 
+
 /* Feature-list */
 .feature-list{
   display: flex;
 }
 
-.feature-list.item{
+.feature-list .item{
+margin-right: 30px;
+}
+.item{
   margin-right: 30px;
 }
 
@@ -173,6 +176,9 @@ line-height: 1.71;
 letter-spacing: 0.03em;
 }
 
+.work-title{
+  text-align: center;
+}
 .work-list{
   display: flex;
 }
@@ -194,7 +200,6 @@ font-family: "Roboto", sans-serif;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.16;
-text-align: center;
 letter-spacing: 0.03em;
 
 }
