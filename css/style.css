@@ -351,6 +351,10 @@ Letter-spacing: 3%;
     background-color: var(--body-bgc-index);
   }
 
+  .all-button{
+    display: flex;
+  }
+
   .photo{
   color: var(--primary-text-color);
   text-decoration: none;
