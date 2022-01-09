@@ -71,6 +71,7 @@ text-decoration: none;
 
 .auth-nav{
   display: flex;
+  justify-content: flex-end;
 }
 
 .auth-nav .item +.item{
@@ -243,6 +244,11 @@ letter-spacing: 0.03em;
 
 /*Button*/
 
+.all-button{
+  display: flex;
+  justify-content: center;
+}
+
 .button-index{
 
 padding: 10px 32px ;
@@ -303,7 +309,11 @@ letter-spacing: 0.03em;
   color: var(--title-text-color)
 }
 
-
+.portfolio-title{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 /* Footer WebStudio */
 
 .footer {
