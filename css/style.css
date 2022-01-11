@@ -18,8 +18,7 @@ ul {
 /* Site nav index html*/
 
 .container{
-.container {
-  width: 1170px;
+ width: 1170px;
   padding-left: 15px;
   padding-right: 15px;
 
@@ -317,7 +316,7 @@ letter-spacing: 0.03em;
 .portfolio-title{
   display: flex;
   flex-wrap: wrap;
- 
+}
 /* Footer WebStudio */
 
 .footer {
