@@ -18,8 +18,13 @@ ul {
 /* Site nav index html*/
 
 .container{
-width: 1200px;
-background-color: var(--body-bgc);
+.container {
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .logo {
@@ -312,8 +317,7 @@ letter-spacing: 0.03em;
 .portfolio-title{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-}
+ 
 /* Footer WebStudio */
 
 .footer {
