@@ -390,7 +390,6 @@ button:focus {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
-  align: Left;
   vertical-align: Top;
   letter-spacing: 3%;
 }
@@ -440,7 +439,6 @@ button:focus {
   color: var(--title-text-color);
   font-size: 18px;
   line-height: 2;
-  align: Left;
 }
 
 .adress {
