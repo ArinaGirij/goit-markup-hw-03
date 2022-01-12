@@ -27,6 +27,8 @@ ul {
 }
 
 .logo {
+  padding-right: 95px;
+
   color: var(--bgc);
    text-decoration: none;
   font-family: Raleway;
@@ -37,12 +39,15 @@ ul {
 
   letter-spacing: 0.03em;
 }
+
 .logo-color{
   color: var(--title-text-color);
 }
+
 .name{
   color: var(--body-bgc);
 }
+
 .site-nav {
   display: flex;
   padding-top: 32px;
@@ -319,10 +324,11 @@ letter-spacing: 0.03em;
 }
 
 /* Card set */
-.card-set{ 
+.card-set{  
+display: flex;
+flex-wrap: wrap;
 flex-basis: calc(100% / 3);
-margin-right: 30px;
-margin-top: 30px;
+
 
 }
 .card-set:nth-child(3n){
