@@ -6,6 +6,8 @@
   --secondary-bgc: #2f303a;
   --body-bgc: #f5f4fa;
   --body-bgc-index: #f5f4fa;
+
+  --card-set-gap: 30px;
 }
 body {
   background-color: #fff;
@@ -144,8 +146,7 @@ p {
 }
 
 .section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding: 94px 0;
 }
 
 .section-title {
@@ -247,8 +248,7 @@ img {
 }
 
 .div {
-  padding-bottom: 30px;
-  padding-top: 30px;
+  padding: 30px 0;
 }
 .team-name {
   color: var(--title-text-color);
@@ -348,18 +348,21 @@ button:focus {
   color: var(--title-text-color);
 }
 
-.portfolio-title {
+/* Card set */
+
+.card-set {
   display: flex;
   flex-wrap: wrap;
+  margin-left: calc(-1 * var(--card-set-gap));
+  margin-bottom: calc(-1 * var(--card-set-gap));
 }
 
-/* Card set */
-.card-set {
-  flex-basis: calc(100% / 3);
+.card-item {
+  margin-left: var(--card-set-gap);
+  margin-bottom: var(--card-set-gap);
+  flex-basis: calc(100% / 3 - var(--card-set-gap));
 }
-.card-set:nth-child(3n) {
-  margin-right: 0px;
-}
+
 .card {
   box-sizing: border-box;
   border: 1px solid #eeeeee;
