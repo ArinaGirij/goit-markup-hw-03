@@ -445,6 +445,13 @@ button:focus {
   line-height: 2;
 }
 
+.paragraph {
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 187% */
+
+  letter-spacing: 0.03em;
+}
 .adress {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
