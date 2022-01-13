@@ -447,12 +447,14 @@ button:focus {
 }
 
 .text-img {
+  margin-left: 24px;
   color: var(--title-text-color);
   font-size: 18px;
   line-height: 2;
 }
 
 .paragraph {
+  margin-left: 24px;
   font-size: 16px;
   line-height: 30px;
   /* identical to box height, or 187% */
