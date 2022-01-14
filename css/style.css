@@ -16,6 +16,7 @@ body {
 }
 ul {
   list-style: none;
+
   margin: 0px;
   padding: 0px;
 }
@@ -70,8 +71,7 @@ ul {
   margin-right: 0px;
 }
 .site-nav-link {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding: 32px 0;
   display: block;
 
   color: var(--title-text-color);
