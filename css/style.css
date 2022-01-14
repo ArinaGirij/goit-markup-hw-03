@@ -463,6 +463,8 @@ button:focus {
   letter-spacing: 0.03em;
 }
 .adress {
+  padding: 20px 0 9px 0;
+
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   font-style: normal;
